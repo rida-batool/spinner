@@ -9,10 +9,8 @@ const spinner2 = function() {
     }, delay);
     delay += 200;
   }
-
   setTimeout(() => {
     console.log('');
   }, delay);
 };
-
 spinner2();
